@@ -1,10 +1,16 @@
 # ntcirseq
 In-house python script for detecting non-tandem repeats in cir-seq data
 
-## Introduction
-Circular sequencing was initially developed by [Andino Group at UCSF](https://andino.ucsf.edu/) in 2014 for reducing Next-Generation Sequencing errors in the study of RNA virus [1]. The authors also released their data analysis software, namely CirSeq, which is open-access at https://andino.ucsf.edu/CirSeq.
+## Ownership
+[Wang Lab at HKUST](http://wang-lab.ust.hk/)
 
-However, when sequencing the transcriptome of advanced organisms, circular sequencing generates non-tandem repeats due to excessively long RNA fragments. Therefore, we present our solution, namely **ntcirseq**, to this problem by rewriting the Consensus Generation Module of [CirSeq](https://andino.ucsf.edu/CirSeq) using a seed-extension strategy to identify consensus sequences.
+## Status
+Active Development
+
+## Introduction
+Circular sequencing was initially developed by [Andino Group at UCSF](https://andino.ucsf.edu/) in 2014 for detecting low-frequency variants in the study of RNA virus by reducing sequencing errors [1]. The authors also released their data analysis software, namely CirSeq, which is open-access at https://andino.ucsf.edu/CirSeq.
+
+However, when sequencing transcriptomes of advanced organisms, circular sequencing generates non-tandem repeats due to excessively long RNA fragments. Therefore, we present our solution, namely **ntcirseq**, to address this problem by rewriting the Consensus Generation Module of [CirSeq](https://andino.ucsf.edu/CirSeq) using a seed-extension strategy in consensus sequence generation.
 
 ## Usage
 1. Download the original CirSeq software from https://andino.ucsf.edu/CirSeq.
